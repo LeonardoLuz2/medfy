@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(to bottom, #02305a, #044a8b, #fff);
+  background-repeat: no-repeat;
+  background-size: 100% 15em;
+}
+
+.header nav {
+  padding-top: 25px;
+}
+
+.header nav .container {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  margin: 0 20px;
+  color: white;
+}
+
+.header nav .container .links {
+  display: flex;
+}
+
+.header nav .container .item {
+  margin: 0 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header nav .container .logout {
+  text-align: center;
+  margin: 0 60px;
+  color: #a4c7e2;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.form {
+  width: 900px;
+  margin-left: auto;
+  background-color: #eaeaea;
+  margin-right: auto;
+  padding: 60px 30px 30px 30px;
+  margin-top: 30px
+}
+
+.form h1 {
+  width: 500px;
+  margin: 10px auto;
+  color: #02305a;
+  text-align: center;
+}
+
+
+.forms {
+  margin: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+input {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 0;
+  width: 96%;
+}
+
+input::placeholder {
+  font-size: 14px;
+}
+
+.col1,
+.col3 {
+  margin: 20px auto;
+  width: 500px;
+}
+
+.col2 {
+  margin: 20px auto;
+  width: 500px;
+  display: flex;
+}
+
+.col2 input {
+  width: 100%;
+}
+
+
+.button {
+  margin: 60px auto 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.submit {
+  padding: 20px 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #02305a;
+  color: white;
+  border-radius: 0px;
+  font-weight: 600;
+  width: 100%;
+}

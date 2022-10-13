@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="content">
-        <div class="logo"><img src="logo.png" alt="MedFy" /></div>
-        <div class="input">
-          <!-- <p>Login:</p> -->
-          <input type="text" placeholder="LOGIN" />
-        </div>
-        <div class="input">
-          <!-- <p>Senha:</p> -->
-          <input type="password" placeholder="SENHA" />
-          <a href="">Esqueci minha senha</a>
-        </div>
 
-        <div class="button">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="logo"><img src="logo.png" alt="MedFy" /></div>
+      <div class="input">
+        <!-- <p>Login:</p> -->
+        <input type="text" placeholder="LOGIN" />
+      </div>
+      <div class="input">
+        <!-- <p>Senha:</p> -->
+        <input type="password" placeholder="SENHA" />
+        <a href="">Esqueci minha senha</a>
+      </div>
+
+      <div class="button">
+        <a href="agendamento.html">
           <button class="submit" type="submit">ENTRAR</button>
-        </div>
+        </a>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
 <style>
   body {
@@ -74,6 +79,7 @@
     border: none;
     border-radius: 0;
   }
+
   input::placeholder {
     font-size: 14px;
   }
@@ -91,6 +97,7 @@
     margin-right: auto;
     width: 200px;
   }
+
   .submit {
     padding: 20px 5px;
     font-size: 14px;
