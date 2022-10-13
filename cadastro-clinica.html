@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="menu">
+        <div class="container">
+          <div class="logo">
+            <img src="logo-white.png" alt="LOGO" />
+          </div>
+          <div class="links">
+            <div class="item">
+              <p>INÍCIO</p>
+            </div>
+            <div class="item">
+              <p>CADASTRO DE PACIENTES</p>
+            </div>
+            <div class="item">
+              <p>CADASTRO DE PROFISSIONAIS</p>
+            </div>
+            <div class="item">
+              <p>CADASTRO DE CONSULTÓRIOS</p>
+            </div>
+            <div class="item">
+              <p>AGENDAMENTOS</p>
+            </div>
+          </div>
+          <div class="logout">
+            <p><b>SAIR</b> <span style="color: white; font-size: 18px; margin-left: 5px;">></span></span></p>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="principal">
+      <div class="form">
+
+        <h1>AGENDAMENTOS</h1>
+        <div class="forms">
+          <div class="col1">
+            <input type="text" placeholder="NOME DO PROPRIETÁRIO *" />
+          </div>
+          <div class="col2">
+            <input type="text" placeholder="E-MAIL" />
+            <input type="text" placeholder="TELEFONE PARA CONTATO *" style="margin-left: 20px;" />
+          </div>
+          <div class="col3">
+            <input type="text" placeholder="ESPECIALIDADES DA CLÍNICA *" />
+          </div>
+          <div class="col2">
+            <input type="text" placeholder="ESTADO" />
+            <input type="text" placeholder="CIDADE" style="margin-left: 20px;" />
+          </div>
+        </div>
+        <div class="col3">
+          <input type="text" placeholder="ENDEREÇO DA CLÍNICA" />
+        </div>
+        <div class="button">
+          <button class="submit" type="submit">AGENDAR</button>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #02305a, #044a8b, #fff);
+    background-repeat: no-repeat;
+    background-size: 100% 15em;
+  }
+
+  .header nav {
+    padding-top: 25px;
+  }
+
+  .header nav .container {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 20px;
+    color: white;
+  }
+  .header nav .container .links {
+    display: flex;
+  }
+
+  .header nav .container .item {
+    margin: 0 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .header nav .container .logout {
+    text-align: center;
+    margin: 0 60px;
+    color: #a4c7e2;
+  }
+
+  .principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .form {
+    width: 900px;
+    margin-left: auto;
+    background-color: #eaeaea;
+    margin-right: auto;
+    padding: 60px 30px 30px 30px;
+    margin-top: 30px
+  }
+
+  .form h1 {
+    width: 500px;
+    margin: 10px auto;
+    color: #02305a;   
+    text-align: center;
+  }
+
+
+  .forms {
+    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+
+  input {
+    padding: 15px 10px;
+    border: none;
+    border-radius: 0;
+    width: 96%;
+  }
+  input::placeholder {
+    font-size: 14px;
+  }
+
+  .col1, .col3 {
+    margin: 20px auto;
+    width: 500px;
+  }
+  
+  .col2 {
+    margin: 20px auto;
+    width: 500px;
+    display: flex;
+  }
+  
+  .col2 input {
+    width: 100%;
+  }
+  
+
+  .button {
+    margin: 60px auto 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+  .submit {
+    padding: 20px 5px;
+    font-size: 14px;
+    border: none;
+    background-color: #02305a;
+    color: white;
+    border-radius: 0px;
+    font-weight: 600;
+    width: 100%;
+  }
+</style>
