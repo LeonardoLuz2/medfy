@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="menu">
+        <div class="container">
+          <div class="logo">
+            <img src="logo-white.png" alt="LOGO" />
+          </div>
+          <div class="links">
+            <div class="item">
+              <a href="agendamento.html">
+                <p>INÍCIO</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="cadastro-pessoa.html">
+                <p>CADASTRO DE PACIENTES</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="cadastro-prof.html">
+                <p>CADASTRO DE PROFISSIONAIS</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="cadastro-clinica.html">
+                <p>CADASTRO DE CONSULTÓRIOS</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="agendamentos-cons.html">
+                <p>AGENDAMENTOS</p>
+              </a>
+            </div>
+          </div>
+          <div class="logout">
+            <a href="index.html">
+              <p><b>SAIR</b> <span style="color: white; font-size: 18px; margin-left: 5px;">></span></span></p>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="principal">
+      <div class="form">
+
+        <h1>AGENDAMENTOS</h1>
+        <div class="forms">
+          <ul>
+            <li class="on">
+              AGENDAMENTO 1
+            </li>
+            <li class="on">
+              AGENDAMENTO 2
+            </li>
+            <li class="off">
+              AGENDAMENTO 3
+            </li>
+            <li class="off">
+              AGENDAMENTO 4
+            </li>
+            <li class="off">
+              AGENDAMENTO 5
+            </li>
+            <li class="off">
+             AGENDAMENTO 6
+            </li>
+          </ul>
+        </div>
+    </div>
+  </body>
+</html>
+<style>
+  .forms {
+    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+
+  .forms ul .on::marker {
+    color: greenyellow;
+    font-size: 25px;  
+  }
+  
+  .forms ul .off::marker {
+    color: red;
+    font-size: 25px;  
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  input {
+    padding: 15px 10px;
+    border: none;
+    border-radius: 0;
+    width: 96%;
+  }
+  input::placeholder {
+    font-size: 14px;
+  }
+</style>
